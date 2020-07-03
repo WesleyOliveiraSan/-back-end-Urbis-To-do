@@ -8,6 +8,7 @@
   "repository": "https://github.com/WesleyOliveiraSan/BACK-END-urbis-to-do.git",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "pg": "^8.2.1",
