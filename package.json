@@ -1,0 +1,29 @@
+{
+  "name": "back-end-urbis-to-do",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server"
+  },
+  "repository": "https://github.com/WesleyOliveiraSan/BACK-END-urbis-to-do.git",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.2.4",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.1.0",
+    "sucrase": "^3.15.0"
+  }
+}
